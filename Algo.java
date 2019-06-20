@@ -10,7 +10,7 @@ import java.util.Stack;
 
 public class Algo extends Board{
 	int num=0;//num-Number of nodes that extend from the open list
-	boolean withTime;
+	boolean withTime;//Knowing if I will have to calculate the time for the solution
 	double startTime = System.nanoTime();
 	
 	public Algo() {
